@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ode to Rham: The Web Weaver</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('bg.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 20px;
+            color: #000000; 
+        }
+        .stanza {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            background-image: url('b&w.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+        }
+        h1, h2{
+            background-image: url('b&g.gif');
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            color: gray;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        p {
+            margin: 0;
+            padding: 10px 0;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .bold-italic {
+            font-weight: bold;
+            font-style: italic;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ode to Rham: The Web Weaver</h1>
+
+    <div id="content"></div>
+
+    <script>
+        //Intro:
+        let Rham = "Rham";
+        let browserAlchemist = "alchemist of the browser";
+        let realm = "realm";
+        let pixels = "pixels";
+        let code = "code";
+        let title = "web weaver";
+        let pearls = "pearls";
+
+        //I:
+        let keyboard = "keyboard";
+        let wand = "wand";
+        let pages = "pages";
+        let Painting = "Painting";
+
+        //II:
+        let fingers = "fingers";
+        let tags = "tags";
+        let keys = "keys";
+        let HTML = "HTML";
+        let symphonies = "symphonies";
+
+        //III:
+        let CSScloak = "CSS cloak";
+        let Styling = "Styling";
+        let colors = "Colors bloom";
+        let fonts = "fonts sing";
+        let visual = "visual";
+
+        //IV:
+        let magic = "magic";
+        let will = "will";
+        let Forms = "Forms";
+        let animation = "animation propel";
+        let jsSpells = "JavaScript spells";
+
+        //V:
+        let bugs = "bugs";
+        let glitches = "glitches";
+        let debuggingSpectacles = "debugging spectacles";
+        let codes = "code's arc";
+        let tames = "tames";
+        let variables = "variables";
+
+        //VI:
+        let Across = "Across";
+        let devices = "devices";
+        let responsiveSea = "responsive sea";
+        let guide = "guide";
+        let Adapting = "Adapting";
+        let fluidity = "fluidity";
+
+        //VII:
+        let labyrinth = "labyrinth";
+        let seoWhisperer = "SEO whisperer";
+        let metatags = "meta tags";
+        let wanderers = "wanderers";
+
+        //VIII:
+        let potion = "mystical potion";
+        let Git = "Git's";
+        let merge = "merge";
+        let repository = "repository";
+        let codee = "code";
+
+        //IX:
+        let moon = "moon";
+        let world = "world";
+        let Deployments = "Deployments";
+        let website = "website";
+        let unfurled = "unfurled";
+
+        //X:
+        let webDeveloper = "wed developer";
+        let pixel = "pixels";
+        let binary = "binary";
+        let clicks = "clicks";
+        let matrix = "matrix";
+
+        let poem = `
+            <p class="stanza">In the <span class="bold">${realm}</span> of ones and zeros,<br>
+            Where <span class="bold">${pixels}</span> dance and <span class="bold">${code}</span> unfurls,<br>
+            There resides a silent sorcerer,<br>
+            A <span class="bold">${title}</span> with dreams and <span class="bold">${pearls}</span>.</p>
+
+            <h2>I. The Blank Canvas</h2>
+            <p class="stanza"><span class="bold">${Rham}</span>, the <span class="bold-italic">${browserAlchemist}</span>,<br>
+            Wields his <span class="bold">${keyboard}</span> like a <span class="bold">${wand}</span>,<br>
+            He conjures <span class="bold">${pages}</span> from thin air,<br>
+            <span class="bold">${Painting}</span> landscapes with lines so fond.</p>
+
+            <h2>II. The HTML Symphony</h2>
+            <p class="stanza">His <span class="bold">${fingers}</span> dance upon the <span class="bold">${keys}</span>,<br>
+            Crafting <span class="bold">${tags}</span> like musical notes,<br>
+            <span class="bold">${HTML}</span> whispers secrets to the breeze,<br>
+            As <span class="bold">${Rham}</span> orchestrates <span class="bold">${symphonies}</span> in quotes.</p>
+
+            <h2>III. The CSS Enchanter</h2>
+            <p class="stanza">Next, he dons his <span class="bold">${CSScloak}</span>,<br>
+            <span class="bold">${Styling}</span> elements with flair and grace,<br>
+            <span class="bold">${colors}</span>, <span class="bold">${fonts}</span>, layouts evoke,<br>
+            A <span class="bold">${visual}</span> ballet in this digital space.</p>
+
+            <h2>IV. The JavaScript Magician</h2>
+            <p class="stanza">But wait, the <span class="bold">${magic}</span> deepens still,<br>
+            <span class="bold">${Rham}</span> summons <span class="bold-italic">${jsSpells}</span>,<br>
+            Interactivity blooms at his <span class="bold">${will}</span>,<br>
+            <span class="bold">${Forms}</span> validate, <span class="bold">${animation}</span> propel.</p>
+
+            <h2>V. The Debugging Sage</h2>
+            <p class="stanza">Yet, <span class="bold">${bugs}</span> creep in like shadows dark,<br>
+            <span class="bold">${Rham}</span> dons his <span class="bold-italic">${debuggingSpectacles}</span>,<br>
+            Chasing <span class="bold">${glitches}</span> through the <span class="bold">${codes}</span>,<br>
+            He <span class="bold">${tames}</span> wild loops and elusive <span class="bold">${variables}</span>.</p>
+
+            <h2>VI. The Responsive Voyager</h2>
+            <p class="stanza"><span class="bold">${Across}</span> screens, <span class="bold">${devices}</span>, and dimensions,<br>
+            <span class="bold">${Rham}</span> sails on the <span class="bold-italic">${responsiveSea}</span>,<br>
+            Media queries <span class="bold">${guide}</span> his intentions,<br>
+            <span class="bold">${Adapting}</span> layouts with <span class="bold">${fluidity}</span>.</p>
+
+            <h2>VII. The SEO Whisperer</h2>
+            <p class="stanza">In the <span class="bold">${labyrinth}</span> of search engines,<br>
+            <span class="bold">${Rham}</span> becomes an <span class="bold-italic">${seoWhisperer}</span>,<br>
+            <span class="bold">${metatags}</span>, keywords, backlink strings,<br>
+            He crafts pathways to digital <span class="bold">${wanderers}</span>.</p>
+
+            <h2>VIII. The Git Alchemist</h2>
+            <p class="stanza">Version control, a <span class="bold">${potion}</span>,<br>
+            <span class="bold">${Rham}</span> brews commits in <span class="bold">${Git}</span> cauldron,<br>
+            Branches fork, <span class="bold">${merge}</span> conflicts in motion,<br>
+            His <span class="bold">${repository}</span> a saga of <span class="bold">${codee}</span> reborn.</p>
+
+            <h2>IX. The Deployment Dreamer</h2>
+            <p class="stanza">And when the <span class="bold">${moon}</span> kisses the horizon,<br>
+            <span class="bold">${Rham}</span> unfurls his creation to the <span class="bold">${world}</span>,<br>
+            <span class="bold">${Deployments}</span> like shooting stars, arisen,<br>
+            His <span class="bold">${website}</span> sails, its sails <span class="bold">${unfurled}</span>.</p>
+
+            <h2>X. The Web Developer's Anthem</h2>
+            <p class="stanza">So here's to <span class="bold">${Rham}</span>, the <span class="bold-italic">${webDeveloper}</span>,<br>
+            A poet of <span class="bold">${pixel}</span>, a composer of <span class="bold">${clicks}</span>,<br>
+            In the <span class="bold">${binary}</span> symphony, he's the reveler,<br>
+            Weaving dreams into the digital <span class="bold">${matrix}</span>.</p>
+        `;
+
+        let contentDiv = document.getElementById("content");
+        contentDiv.innerHTML += poem;
+    </script>
+
+    <footer>
+        <h2>Submitted by : Ballaran, Ramon Jr. E.<br>
+        Year & Section : BSCS 1-1</h2>
+    </footer>
+</body>
+</html>
